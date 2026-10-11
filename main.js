@@ -2,7 +2,7 @@ const { Client, GatewayIntentBits, EmbedBuilder, AllowedMentions } = require('di
 const translate = require('google-translate-api-x');
 
 const TOKEN = process.env.DISCORD_TOKEN || process.env.DISCORD_BOT_TOKEN;
-const CHANNEL_ID = process.env.CHANNEL_ID;
+const CHANNEL_ID = '755696962652733481';
 
 if (!TOKEN) {
     console.error('ERROR: Discord bot token is missing.');
