@@ -1,0 +1,13 @@
+{
+  "name": "rdrgreece-daily-translator",
+  "version": "1.0.0",
+  "description": "Greek translator for RDO daily challenge embeds",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "google-translate-api-x": "^10.7.2"
+  }
+}
